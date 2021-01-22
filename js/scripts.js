@@ -6,11 +6,14 @@ function numbers(user){
   }
 
   let input=0;
-  newArray.forEach(function(number)) {
+  newArray.forEach(function(number) {
     if(number.indexOf('1')) {
       newArray[input] = "Beep!";
+    } else if (number.indexOf('2')) {
+      newArray[input] = "Boop!";
     }
-  }
+    input ++
+  })
 
   const arrayResult = newArray.join(" , ");
   return arrayResult;
@@ -18,3 +21,11 @@ function numbers(user){
 };
 
 //User Logic
+$(document).ready(function(){
+  $("#input").submit(function(event){
+    event.preventDefault();
+    const number = parseInt($("input#number").val());
+    $("userOutput").show();
+    $("#result").text(numbers(number));
+  });
+});
