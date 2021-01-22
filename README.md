@@ -18,3 +18,15 @@ Expect:(isMr.Robogers(4)).toEqual(0,1,2,3,4);
 
 Test: "The numbers that contain a 1 will have all their digits replaced by "Beep!". <br>
 Expect(isMr.Robogers("1", "16", "41")).toEqual("Beep!","Beep!", "Beep!");
+
+Test: "The numbers that contain a 2 will have all their digits replaced by "Boop!".
+<br>
+Expect(isMr.Robogers("2","20","42")).toEqual("Boop!","Boop!","Boop!");
+
+Test: "The numbers that contain a 3 will have all their digits replaced by "Won't you be my neighbor?"
+<br>
+Expect(isMr.Robogers("3","30")).toEqual("Won't you be my neighbor?", "Won't you be my neighbor?");
+
+Test: "The first exception should apply unless the second exception applies, and the second section should apply unless the third exception applies.
+<br>
+Expect(isMr.Robogers("13", "21", "32")).toEqual("Won't you be my neighbor", "Boop!", "Won't you be my neighbor?");
