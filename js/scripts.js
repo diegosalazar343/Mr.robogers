@@ -7,12 +7,12 @@ function numbers(user){
 
   let input=0;
   newArray.forEach(function(number) {
-    if(number.indexOf('1')!= -1) {
-      newArray[input] = "Beep!";
+    if(number.indexOf('3')!= -1) {
+      newArray[input] = "Won't you be my neighbor?";
     } else if (number.indexOf('2')!= -1) {
       newArray[input] = "Boop!";
-    } else if (number.indexOf('3')!= -1) {
-      newArray[input] = "Won't you be my neighbor?";
+    } else if (number.indexOf('1')!= -1) {
+      newArray[input] = "Beep!";
     }
     input ++
   })
