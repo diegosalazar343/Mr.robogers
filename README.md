@@ -30,3 +30,17 @@ Expect(isMr.Robogers("3","30")).toEqual("Won't you be my neighbor?", "Won't you 
 Test: "The first exception should apply unless the second exception applies, and the second section should apply unless the third exception applies.
 <br>
 Expect(isMr.Robogers("13", "21", "32")).toEqual("Won't you be my neighbor", "Boop!", "Won't you be my neighbor?");
+
+## Setup
+*
+
+## Technologies Used
+* HTML
+* CSS
+* JavaScript
+* JQuery
+* Bootstrap
+
+## Legal
+* Copyright(c) 2021 **_Diego Salazar_**
+* This software is licensed under the MIT license.
