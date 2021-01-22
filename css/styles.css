@@ -1,8 +1,4 @@
 body {
   text-align: center;
-  background-image: url("https://media.architecturaldigest.com/photos/5dd8197108d5eb0009de8069/master/w_1600%2Cc_limit/DF-08063.jpg");
-  background-position: right;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  background-color: rgb(216, 93, 93);
 }
