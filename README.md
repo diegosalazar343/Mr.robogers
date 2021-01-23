@@ -18,7 +18,7 @@ _This project was intended to display our knowledge and skills that we developed
 | User puts in the number 3 and recieves back the words "Won't you be my neighbor?" | 3, 30 | Won't you be my neighbor? |
 | The first exception should apply unless the second exception applies, and the second section should apply unless the third exception applies | 13, 21 , 32 | Won't you be my neighbor, Boop!, Won't you be my neighbor? |
 
-** Describe: isMr.Robogers()** <br>
+**Describe: isMr.Robogers()** <br>
 Test: "The program returns a range of numbers from 0 to the users input number: "4". <br>
 Expect:(isMr.Robogers(4)).toEqual(0,1,2,3,4);
 
